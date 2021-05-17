@@ -96,3 +96,16 @@ body {
   border-radius: 5px;
   background: #e77171;
 }
+
+#photo-show .photo{
+  width: 20%;
+  margin-right: 50px;
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+#photo-show{
+  display:flex;
+  width:100vw;
+  flex-wrap:wrap;
+}
